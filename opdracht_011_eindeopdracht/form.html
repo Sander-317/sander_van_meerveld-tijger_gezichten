@@ -10,47 +10,54 @@
 </head>
 
 <body>
+
     <div class="grid-container">
+
         <header class="border ">
-
             <h2>Aanmeldings formulier</h2>
-
         </header>
+
         <nav class=" site-nav border ">
             <a href="index.html" class="nav-links">Home</a>
             <a href="about.html" class="nav-links">About</a>
             <a href="form.html" class="nav-links">Aanmelden</a>
-
         </nav>
+
         <main class="border">
 
-            <img src="tigerking.jpeg" class=" border">
-
+            <img src="img/tigerking.jpeg" class=" border">
 
             <form class="border" name="contact" method="POST" data-netlify="true">
 
                 <!-- <form action="results.html" method="GET" enctype="multipart/form-data"> -->
+
                 <h1>Aanmeldings formulier</h1>
+
                 <div class="form-input">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" required />
                 </div>
+
                 <div class="form-input">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" required />
                 </div>
+
                 <div class="form-input">
                     <label for="phone">Phone</label>
                     <input type="tel" name="phone" id="phone" />
                 </div>
+
                 <div class="form-input">
                     <label for="age">Age</label>
                     <input type="number" name="age" id="age" min="1" max="200" step="5" />
                 </div>
+
                 <div class="form-input">
                     <label for="date">Birthdate</label>
                     <input type="date" name="date" id="date" min="2019-06-10" />
                 </div>
+
                 <hr />
 
                 <div class="form-input">
@@ -59,38 +66,48 @@
                         <label for="male">Male</label>
                         <input type="radio" name="gender" id="male" value="male" />
                     </div>
+
                     <div>
                         <label for="female">Female</label>
                         <input type="radio" name="gender" id="female" value="female" />
                     </div>
+
                 </div>
+
                 <hr />
+
                 <div class="form-input">
                     Favoriete dier:
                     <div>
                         <label for="tijger">Tijger</label>
                         <input type="checkbox" name="tijger" id="tijger" />
                     </div>
+
                     <div>
                         <label for="beer">Beer</label>
                         <input type="checkbox" name="beer" id="beer" />
                     </div>
+
                     <div>
                         <label for="lama">Lama</label>
                         <input type="checkbox" name="lama" id="lama" />
                     </div>
+
                     <div>
                         <label for="kat">Kat</label>
                         <input type="checkbox" name="kat" id="kat" />
                     </div>
+
                 </div>
+
                 <hr />
+
                 <div class="form-input">
                     <label for="aantaltijgers">Hoeveel tijgers heeft u:</label>
                     <input type="number" name="aantaltijgers" id="aantaltijgers" min="1" max="200" step="1" />
                 </div>
-                <hr />
 
+                <hr />
 
                 <div class="form-input">
                     <label for="color">Favoriete kleur:</label>
@@ -101,9 +118,12 @@
 
                 <div class="form-input">
                     <label for="bio">Waarom ben jij de nieuwe tijger koning:</label>
+                    <br>
                     <textarea id="bio" name="bio"></textarea>
                 </div>
+
                 <input type="hidden" name="hidden" value="hi" />
+
                 <div class="form-input">
                     <label for="file">Foto van uw tijgers:</label>
                     <input id="file" type="file" name="file" />
@@ -113,26 +133,26 @@
                     <label for="url">URL</label>
                     <input type="url" name="url" id="url" />
                 </div>
+
                 <br>
 
                 <button type="reset">
                     <h2>Reset</h2>
                 </button>
+
                 <button type="submit">
                     <h2>Submit</h2>
                 </button>
+
             </form>
 
-
-
         </main>
+
         <footer class="border">
 
             <h4>gemaakt door sander van meerveld</h4>
 
-
         </footer>
-
 
     </div>
 

@@ -1,24 +1,21 @@
 * {
     text-align: center;
     font-family: 'Syne Mono', monospace;
-    
 }
 
-
-/*
+/* 
 fancy: font-family: 'Dancing Script', cursive;
-spooky: font-family: 'Syne Mono', monospace;
-
+spooky: font-family: 'Syne Mono', monospace; 
 */
 
 body {
     background: linear-gradient(black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange,black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange,black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange, black, white, orange,black, white, orange, black, white, orange, black, white, orange   );
 }
 
-
 h2 {
     margin: 5px;
 }
+
 h1, h2, h4, h6 {
      font-family: 'Dancing Script', cursive;
 
@@ -36,18 +33,14 @@ a {
 }
 
 .tigerking {
-    width: 100%;
+    width: auto;
     height: auto;
-
 }
 
 .video{
    margin: 5px;
    padding: 5px;
 }
-
-
-
 
 article{
     background: white;
@@ -56,6 +49,7 @@ article{
 li {
     text-align: left;
 }
+
 .article-links {
     padding: 0;
 }
@@ -63,6 +57,7 @@ li {
 form{
     background-color: white;
 }
+
 input{
     background-color: orange;
     opacity: 0.6;
@@ -75,6 +70,7 @@ img {
 textarea {
     background-color: orange;
     opacity: 0.6;
+    width: 80%;
 }
 
 button {
@@ -87,19 +83,19 @@ button {
 
 .form-input {
     margin: 5px;
-
-
 }
 
 iframe{
     background-color: white;
 }
 
-
+.vervelend {
+    min-width: 50px;
+    min-height: 50px;
+}
 
 .grid-container{
     display: grid;
-    
     height: 100vh;
     grid-gap: 3px;
     grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 10%;
@@ -109,8 +105,8 @@ iframe{
         ". nav nav nav nav nav ."
         ". main main main main main ."
         ". main main main main main ."
-        ". footer footer footer footer footer ." 
-         
+        ". footer footer footer footer footer ."
+        ;
 }
 
 header {
@@ -118,24 +114,19 @@ header {
     grid-area: header;
     padding: 10px;
     margin: 5px;
-   
 }
-
 
 .nav-links {
     padding: 10px
-
 }
+
 .site-nav {
-  
     grid-area: nav;
     text-align: center;
     margin: auto;
     padding: 5px;
     width: 93%;
     background-color: orange;
-
-
 }
 
 main {
@@ -150,12 +141,10 @@ footer{
     background-color: orange;
 }
 
-
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
 
     .grid-container{
         display: grid;
-        
         height: 100vh;
         grid-gap: 3px;
         grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 10%;
@@ -166,20 +155,15 @@ footer{
             ". main main main main main ."
             ". main main main main main ."
             ". footer footer footer footer footer ." 
+            ;
     }
     main {
         grid-area: main;
         display: flex;
         justify-content: center;
-
-        
     }
 
     body{
         background-color: blue;
     }
-    
-
-
-
 }
